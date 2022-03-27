@@ -41,8 +41,6 @@ namespace Operators_Exercise1
 
 
         }
-        
-      
 
         static void Main(string[] args)
         {
@@ -54,6 +52,9 @@ namespace Operators_Exercise1
             var sum = Add(4, 7,true);
             var sum2 = Add(0, 1, true);
             var sum3 = Add(0, 2, false);
+
+            Console.WriteLine($"int add: {answer} decimal answer: {decimalAns}");
+            Console.WriteLine($"third answer: {sum}, {sum2}, {sum3}");
             
         }
     }
